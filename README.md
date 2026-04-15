@@ -2,5 +2,5 @@
 Репозиторий по учебной дисциплине **«Стартап в информационных технологиях»**.
 
 ## Разработчики:
-- Меркулова Ксения [@Ksenia Merkulova](https://github.com/KsuuushkaMerkl)
+- Меркулова Ксения [@Ksenia Merkulova](https://github.com/merkulova-ki)
 - Савина Мария [@Maria-arc](https://github.com/Maria-arc)
