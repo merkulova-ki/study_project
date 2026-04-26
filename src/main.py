@@ -1,12 +1,9 @@
 from fastapi import FastAPI
 
 from src.auth.endpoints import router as auth_router
-
-
 from src.core.base_model import Base
 from src.core.database import engine
-from src.user.models import User
-
+from src.user.models import User  # noqa: F401
 
 Base.metadata.create_all(bind=engine)
 
