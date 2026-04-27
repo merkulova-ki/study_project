@@ -12,6 +12,6 @@ pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
 SECRET = os.getenv("SECURITY_KEY")
 
-manager = LoginManager(SECRET, "/login")
+manager = LoginManager(SECRET, "auth/login")
 
 limiter = Limiter(key_func=get_remote_address)
